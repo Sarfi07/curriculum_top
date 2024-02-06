@@ -87,7 +87,7 @@ function sumObjectValues(obj) {
   const copyObject = { ...obj };
   let sum = 0;
   Object.values(copyObject).forEach((value) => {
-    sum += value
+    sum += value;
   });
   return sum;
 }
@@ -153,3 +153,5 @@ This section contains questions for you to check your understanding of this less
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- A short [video](https://youtu.be/YoZPTyGL2IQ?si=ftrziggmpKVFTTvE) by Prof. Doug Lloyd from CS50.
